@@ -1,0 +1,25 @@
+﻿#wrapper {
+    margin-left:auto;
+    margin-right:auto;
+    padding: 0px;
+    width:1280px;
+    height:1024px;
+}
+#navBar {
+    
+}
+ul {
+    list-style-type:none;
+    margin:0px auto;
+    padding:0px;
+    height:auto;
+    width:1280px;
+}
+li {
+    display:block;
+    float:left;
+    height:auto;
+    width:auto;
+}
+body {
+}
