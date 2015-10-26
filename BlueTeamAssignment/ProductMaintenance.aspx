@@ -26,7 +26,7 @@
         }
     </style>
 </head>
-<body style="background-color: #3B403C;">
+<body style="background-color: #3B403C; color:white">
 
     
     <form id="form1" runat="server">

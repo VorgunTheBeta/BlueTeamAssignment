@@ -6,9 +6,10 @@
 <head runat="server">
     <title>Technical Maintenance</title>
 </head>
-<body style="background-color: #3B403C;">>
+<body style="background-color: #3B403C; color:white";>
+    col
     <form id="form1" runat="server">
-    <div>
+    <div style="color:white;">
         <br />
         <asp:Button ID="btnStartList" runat="server" Text="|&lt;" />
 &nbsp;&nbsp;&nbsp;
