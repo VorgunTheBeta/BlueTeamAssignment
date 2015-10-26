@@ -32,10 +32,10 @@ li {
     height: auto;
     width: auto;
     margin: 0px auto;
-    font-family: 'OCR A Extended';
+    font-family: Arial, Helvetica, sans-serif;
     font-size: 22px;
-     color:white;
-     border:dashed 0.5px black;
+    color: white;
+    border: dashed 0.5px black;
 }
     li:hover {
     color: cyan;
