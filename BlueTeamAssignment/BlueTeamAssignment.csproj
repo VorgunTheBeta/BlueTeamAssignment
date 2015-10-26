@@ -58,6 +58,7 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="Design Tester.html" />
+    <Content Include="images\textBackground.png" />
     <Content Include="siteStyles.css" />
     <Content Include="Web.config" />
   </ItemGroup>
