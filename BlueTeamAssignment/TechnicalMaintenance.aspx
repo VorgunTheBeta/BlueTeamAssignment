@@ -6,7 +6,7 @@
 <head runat="server">
     <title>Technical Maintenance</title>
 </head>
-<body>
+<body style="background-color: #3B403C;">>
     <form id="form1" runat="server">
     <div>
         <br />
