@@ -8,7 +8,7 @@
 #homePageContentBackground {
     border-style: solid;
     border-width: 1px;
-    margin: 30px 50px;
+    margin: auto 50px auto 50px;
     background-image: url('images/textBackground.png');
     display: block;
 }
@@ -21,7 +21,7 @@
 }
 ul {
     list-style-type:none;
-    margin:0px auto;
+    margin: auto 25px auto 25px;
     padding:0px;
     height:auto;
     width:1280px;
@@ -35,12 +35,29 @@ li {
     font-family: 'OCR A Extended';
     font-size: 22px;
      color:white;
+     border:dashed 0.5px black;
 }
     li:hover {
-        color:cyan;
-        font-style:italic;
-    }
+    color: cyan;
+    font-style: italic;
+    cursor: pointer;
+}
 body {
     background-color:#3B403C;
    
+}
+table.hiddenTable {
+    border-style: none;
+    border-width: 0px;
+}
+table.visibleTable {
+    border-style: solid;
+    border-width: thin;
+    border-collapse: separate;
+    border-spacing: inherit;
+    empty-cells: show;
+    table-layout: auto;
+}
+table.visibleTable td {
+    width:auto;
 }
