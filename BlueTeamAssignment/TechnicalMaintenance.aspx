@@ -35,11 +35,11 @@
         <br />
         <asp:Label ID="lblEmail" runat="server" Text="Email:"></asp:Label>
         &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-        <asp:TextBox ID="txtEmail" runat="server"></asp:TextBox>
+        <asp:TextBox ID="txtEmail" runat="server" style="margin-left: 2px" Width="118px"></asp:TextBox>
         <br />
         <asp:Label ID="lblPhone" runat="server" Text="Phone:"></asp:Label>
     &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-        <asp:TextBox ID="txtPhone" runat="server"></asp:TextBox>
+        <asp:TextBox ID="txtPhone" runat="server" style="margin-left: 5px"></asp:TextBox>
     </div>
     </form>
 </body>

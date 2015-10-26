@@ -19,19 +19,20 @@
         <br />
         <asp:Label ID="lblProduct" runat="server" Text="Product:"></asp:Label>
 &nbsp;&nbsp;&nbsp;
-        <asp:DropDownList ID="dropDownProduct" runat="server">
+        <asp:DropDownList ID="dropDownProduct" runat="server" style="margin-left: 11px">
         </asp:DropDownList>
         <br />
         <asp:Label ID="lblReg" runat="server" Text="Reg Date:"></asp:Label>
 &nbsp;&nbsp;&nbsp;
-        <asp:TextBox ID="txtReg" runat="server"></asp:TextBox>
+        <asp:TextBox ID="txtReg" runat="server" style="margin-left: 3px" Width="96px"></asp:TextBox>
         <br />
         <br />
-        <asp:Button ID="bntRegister" runat="server" Text="Register Product" />
+        &nbsp;&nbsp;&nbsp;
+        <asp:Button ID="bntRegister" runat="server" Text="Register Product" Width="112px" />
 &nbsp;&nbsp;&nbsp;
-        <asp:Button ID="btnCancel" runat="server" Text="Cancel" />
+        <asp:Button ID="btnCancel" runat="server" Text="Cancel" Width="60px" />
 &nbsp;&nbsp;&nbsp;
-        <asp:Button ID="btnExit" runat="server" Text="Exit" />
+        <asp:Button ID="btnExit" runat="server" Text="Exit" Width="60px" />
         <br />
     
     </div>

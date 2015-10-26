@@ -18,7 +18,7 @@
         <br />
         <br />
         <asp:Label ID="lblName" runat="server" Text="Name:"></asp:Label>
-&nbsp;<asp:TextBox ID="txtName" runat="server" Width="227px"></asp:TextBox>
+&nbsp;<asp:TextBox ID="txtName" runat="server" Width="191px"></asp:TextBox>
         <br />
         <br />
         <br />

@@ -8,25 +8,31 @@
     <style type="text/css">
         .auto-style1 {
             width: 42%;
+            border-color:white;
         }
         .auto-style4 {
             width: 83px;
+            border-color:white;
         }
         .auto-style5 {
             width: 89px;
+            border-color:white;
         }
         .auto-style6 {
             width: 108px;
+            border-color:white;
         }
         .auto-style8 {
             width: 112px;
+            border-color:white;
         }
         .auto-style9 {
             width: 32px;
+            border-color:white;
         }
     </style>
 </head>
-<body style="background-color: #3B403C; color:white">
+<body style="background-color: #3B403C; color:white; height: 290px;">
 
     
     <form id="form1" runat="server">
@@ -114,11 +120,6 @@
                 <td class="auto-style8">&nbsp;</td>
             </tr>
         </table>
-        <br />
-        <br />
-        <br />
-        <br />
-        <br />
         <br />
     
     </div>
