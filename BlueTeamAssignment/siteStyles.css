@@ -16,10 +16,14 @@ ul {
     width:1280px;
 }
 li {
-    display:block;
-    float:left;
-    height:auto;
-    width:auto;
+    display: block;
+    float: left;
+    height: auto;
+    width: auto;
+    font-family: 'OCR A Extended';
+    font-size: 22px;
 }
 body {
+    background-color:#3B403C;
+    color:white;
 }
