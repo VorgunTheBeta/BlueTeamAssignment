@@ -7,7 +7,7 @@
     <title>Technical Maintenance</title>
 </head>
 <body style="background-color: #3B403C; color:white";>
-    col
+    
     <form id="form1" runat="server">
     <div style="color:white;">
         <br />
@@ -28,18 +28,27 @@
         <asp:Label ID="lblTech" runat="server" Text="Tech ID:"></asp:Label>
        &nbsp;&nbsp;&nbsp;
         <asp:TextBox ID="txtTech" runat="server"></asp:TextBox>
+        &nbsp;<asp:RequiredFieldValidator ID="RequiredFieldValidatorTechID" runat="server" ControlToValidate="txtTech" Display="Dynamic" ErrorMessage="Tech ID is a required field" ForeColor="Red"></asp:RequiredFieldValidator>
         <br />
        <asp:Label ID="lblName" runat="server" Text="Name:"></asp:Label>
         &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
         <asp:TextBox ID="txtName" runat="server"></asp:TextBox>
+        <asp:RequiredFieldValidator ID="RequiredFieldValidatorName" runat="server" ControlToValidate="txtName" Display="Dynamic" ErrorMessage="Name is a required field" ForeColor="Red"></asp:RequiredFieldValidator>
         <br />
         <asp:Label ID="lblEmail" runat="server" Text="Email:"></asp:Label>
         &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
         <asp:TextBox ID="txtEmail" runat="server" style="margin-left: 2px" Width="118px"></asp:TextBox>
+        <asp:RequiredFieldValidator ID="RequiredFieldValidatorEmail" runat="server" ControlToValidate="txtEmail" Display="Dynamic" ErrorMessage="Email is a required field" ForeColor="Red"></asp:RequiredFieldValidator>
         <br />
         <asp:Label ID="lblPhone" runat="server" Text="Phone:"></asp:Label>
     &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
         <asp:TextBox ID="txtPhone" runat="server" style="margin-left: 5px"></asp:TextBox>
+        <asp:RequiredFieldValidator ID="RequiredFieldValidatorPhone" runat="server" ControlToValidate="txtPhone" ForeColor="Red" ErrorMessage="Phone number is a required field"></asp:RequiredFieldValidator>
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
     </div>
     </form>
 </body>
