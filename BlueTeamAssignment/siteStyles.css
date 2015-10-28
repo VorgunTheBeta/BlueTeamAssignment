@@ -26,7 +26,7 @@ ul {
     height:auto;
     width:1280px;
 }
-li {
+li a {
     display: block;
     float: left;
     height: auto;
@@ -36,8 +36,9 @@ li {
     font-size: 22px;
     color: white;
     border: dashed 0.5px black;
+    text-decoration:none;
 }
-    li:hover {
+    li a:hover {
     color: cyan;
     font-style: italic;
     cursor: pointer;
@@ -46,6 +47,7 @@ body {
     background-color:#3B403C;
    
 }
+
 table.hiddenTable {
     border-style: none;
     border-width: 0px;

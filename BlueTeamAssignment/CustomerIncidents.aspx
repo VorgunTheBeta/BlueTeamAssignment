@@ -9,6 +9,29 @@
 </head>
 <body style="background-color: #3B403C; color:white">
     <form id="form1" runat="server">
+        <div id="navBar">
+            <ul>
+                <li>
+                    <a href="Design Tester.html">Home&nbsp;</a>
+                </li>
+                <li>
+                    <a href="TechnicalMaintenance.aspx">Technician Maintanence&nbsp;</a>
+                </li>
+                <li>
+                    <a href="CustomerIncidents.aspx">Customer Incidents&nbsp;</a>
+                </li>
+                <li>
+                    <a href="AddIncident.aspx">Add Incident&nbsp;</a>
+                </li>
+                <li>
+                    <a href="AddRegistration.aspx">Add Registration&nbsp;</a>
+                </li>
+                <li>
+                    <a>Add Technician&nbsp;</a>
+                </li>
+            </ul>
+        </div>
+        <br /><br />
     <div style="height: 462px">
     
         <asp:Label ID="lblCustomer" runat="server" Text="Customer ID"></asp:Label>
