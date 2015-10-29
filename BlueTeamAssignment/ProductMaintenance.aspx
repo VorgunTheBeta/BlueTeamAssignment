@@ -48,77 +48,77 @@
 &nbsp;<asp:Button ID="btnDelete" runat="server" ForeColor="#CC0000" Text="X" />
 &nbsp;<asp:Button ID="btnSave" runat="server" Text="Save" />
         <br />
-        <table class="auto-style1">
+        <table class="visibleTable">
             <tr>
-                <td class="auto-style9">&nbsp;</td>
-                <td class="auto-style6">
+                <th>&nbsp;</th>
+                <th>
                     <asp:Label ID="lblProductCode" runat="server" Text="Product Code"></asp:Label>
-                </td>
-                <td class="auto-style5">
+                </th>
+                <th>
                     <asp:Label ID="lblName" runat="server" Text="Name"></asp:Label>
-                </td>
-                <td class="auto-style4">
+                </th>
+                <th>
                     <asp:Label ID="lblVersion" runat="server" Text="Version"></asp:Label>
-                </td>
-                <td class="auto-style8">
+                </th>
+                <th>
                     <asp:Label ID="lblRelease" runat="server" Text="Release Date"></asp:Label>
-                </td>
+                </th>
             </tr>
             <tr>
-                <td class="auto-style9">&nbsp;</td>
-                <td class="auto-style6">&nbsp;</td>
-                <td class="auto-style5">&nbsp;</td>
-                <td class="auto-style4">&nbsp;</td>
-                <td class="auto-style8">&nbsp;</td>
+                <td>&nbsp;</td>
+                <td>&nbsp;</td>
+                <td>&nbsp;</td>
+                <td>&nbsp;</td>
+                <td>&nbsp;</td>
             </tr>
             <tr>
-                <td class="auto-style9">&nbsp;</td>
-                <td class="auto-style6">&nbsp;</td>
-                <td class="auto-style5">&nbsp;</td>
-                <td class="auto-style4">&nbsp;</td>
-                <td class="auto-style8">&nbsp;</td>
+                <td>&nbsp;</td>
+                <td>&nbsp;</td>
+                <td>&nbsp;</td>
+                <td>&nbsp;</td>
+                <td>&nbsp;</td>
             </tr>
             <tr>
-                <td class="auto-style9">&nbsp;</td>
-                <td class="auto-style6">&nbsp;</td>
-                <td class="auto-style5">&nbsp;</td>
-                <td class="auto-style4">&nbsp;</td>
-                <td class="auto-style8">&nbsp;</td>
+                <td>&nbsp;</td>
+                <td>&nbsp;</td>
+                <td>&nbsp;</td>
+                <td>&nbsp;</td>
+                <td>&nbsp;</td>
             </tr>
             <tr>
-                <td class="auto-style9">&nbsp;</td>
-                <td class="auto-style6">&nbsp;</td>
-                <td class="auto-style5">&nbsp;</td>
-                <td class="auto-style4">&nbsp;</td>
-                <td class="auto-style8">&nbsp;</td>
+                <td>&nbsp;</td>
+                <td>&nbsp;</td>
+                <td>&nbsp;</td>
+                <td>&nbsp;</td>
+                <td>&nbsp;</td>
             </tr>
             <tr>
-                <td class="auto-style9">&nbsp;</td>
-                <td class="auto-style6">&nbsp;</td>
-                <td class="auto-style5">&nbsp;</td>
-                <td class="auto-style4">&nbsp;</td>
-                <td class="auto-style8">&nbsp;</td>
+                <td>&nbsp;</td>
+                <td>&nbsp;</td>
+                <td>&nbsp;</td>
+                <td>&nbsp;</td>
+                <td>&nbsp;</td>
             </tr>
             <tr>
-                <td class="auto-style9">&nbsp;</td>
-                <td class="auto-style6">&nbsp;</td>
-                <td class="auto-style5">&nbsp;</td>
-                <td class="auto-style4">&nbsp;</td>
-                <td class="auto-style8">&nbsp;</td>
+                <td>&nbsp;</td>
+                <td>&nbsp;</td>
+                <td>&nbsp;</td>
+                <td>&nbsp;</td>
+                <td>&nbsp;</td>
             </tr>
             <tr>
-                <td class="auto-style9">&nbsp;</td>
-                <td class="auto-style6">&nbsp;</td>
-                <td class="auto-style5">&nbsp;</td>
-                <td class="auto-style4">&nbsp;</td>
-                <td class="auto-style8">&nbsp;</td>
+                <td>&nbsp;</td>
+                <td>&nbsp;</td>
+                <td>&nbsp;</td>
+                <td>&nbsp;</td>
+                <td>&nbsp;</td>
             </tr>
             <tr>
-                <td class="auto-style9">&nbsp;</td>
-                <td class="auto-style6">&nbsp;</td>
-                <td class="auto-style5">&nbsp;</td>
-                <td class="auto-style4">&nbsp;</td>
-                <td class="auto-style8">&nbsp;</td>
+                <td>&nbsp;</td>
+                <td>&nbsp;</td>
+                <td>&nbsp;</td>
+                <td>&nbsp;</td>
+                <td>&nbsp;</td>
             </tr>
         </table>
         <br />
