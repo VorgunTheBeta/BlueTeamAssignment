@@ -7,7 +7,7 @@ using System.Web.UI.WebControls;
 
 namespace BlueTeamAssignment
 {
-    public partial class CustomerIncidents : System.Web.UI.Page
+    public partial class AddIncident : System.Web.UI.Page
     {
         protected void Page_Load(object sender, EventArgs e)
         {
