@@ -60,8 +60,10 @@
     <Content Include="AddIncident.aspx" />
     <Content Include="AddRegistration.aspx" />
     <Content Include="CustomerIncidents.aspx" />
+    <Content Include="Design Tester.html" />
     <Content Include="images\textBackground.png" />
     <Content Include="ProductMaintenance.aspx" />
+    <Content Include="siteStyles.css" />
     <Content Include="TechnicalMaintenance.aspx" />
     <Content Include="Web.config" />
   </ItemGroup>
