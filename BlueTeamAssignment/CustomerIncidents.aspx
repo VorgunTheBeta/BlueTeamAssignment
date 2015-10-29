@@ -4,36 +4,34 @@
 
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head runat="server">
-    <title></title>
-    <style type="text/css">
-        .auto-style1 {
-            width: 72%;
-            border-color:white;
-        }
-        .auto-style2 {
-            width: 73px;
-            border-color:white;
-        }
-        .auto-style3 {
-            width: 88px;
-            border-color:white;
-        }
-        .auto-style4 {
-            width: 126px;
-            border-color:white;
-        }
-        .auto-style5 {
-            width: 185px;
-            border-color:white;
-        }
-        .auto-style6 {
-            width: 216px;
-            border-color:white;
-        }
-    </style>
+    <title>Customer Incidents</title>
+    <link href="siteStyles.css" rel="stylesheet" type="text/css" />
 </head>
 <body style="background-color: #3B403C; color:white">
     <form id="form1" runat="server">
+        <div id="navBar">
+            <ul>
+                <li>
+                    <a href="Design Tester.html">Home&nbsp;</a>
+                </li>
+                <li>
+                    <a href="TechnicalMaintenance.aspx">Technician Maintanence&nbsp;</a>
+                </li>
+                <li>
+                    <a href="CustomerIncidents.aspx">Customer Incidents&nbsp;</a>
+                </li>
+                <li>
+                    <a href="AddIncident.aspx">Add Incident&nbsp;</a>
+                </li>
+                <li>
+                    <a href="AddRegistration.aspx">Add Registration&nbsp;</a>
+                </li>
+                <li>
+                    <a>Add Technician&nbsp;</a>
+                </li>
+            </ul>
+        </div>
+        <br /><br />
     <div style="height: 462px">
     
         <asp:Label ID="lblCustomer" runat="server" Text="Customer ID"></asp:Label>
@@ -42,30 +40,80 @@
         <asp:Label ID="lblGetCustomer" runat="server" Text="Get Customer"></asp:Label>
         <br />
         <br />
-        <asp:Label ID="lblName" runat="server" Text="Name:"></asp:Label>
         &nbsp;&nbsp;&nbsp;
-        <asp:TextBox ID="txtName" runat="server" style="margin-left: 12px"></asp:TextBox>
         <br />
-        <asp:Label ID="lblAdress" runat="server" Text="Address:"></asp:Label>
-        <asp:TextBox ID="txtAddress" runat="server" style="margin-left: 13px"></asp:TextBox>
         <br />
-        <asp:Label ID="lblCity" runat="server" Text="City. State. Zip."></asp:Label>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-        <asp:TextBox ID="txtCity" runat="server" Width="84px" style="margin-left: 0px"></asp:TextBox>
-&nbsp;
-        <asp:TextBox ID="txtState" runat="server" Width="40px"></asp:TextBox>
-&nbsp;&nbsp;&nbsp;
-        <asp:TextBox ID="txtZip" runat="server" Width="41px"></asp:TextBox>
-        <br />
-        <asp:Label ID="lblPhone" runat="server" Text="Phone:"></asp:Label>
+        &nbsp;
         &nbsp;&nbsp;&nbsp;
-        <asp:TextBox ID="txtPhone" runat="server" style="margin-left: 10px"></asp:TextBox>
         <br />
+        &nbsp;&nbsp;&nbsp;
+        <br />
+        <table class="hiddenTable">
+            <tr>
+                <td>
+        <asp:Label ID="lblName" runat="server" Text="Name:"></asp:Label>
+                </td>
+                <td>
+        <asp:TextBox ID="txtName" runat="server" Width="262px"></asp:TextBox>
+                </td>
+                <td>
+                    <asp:RequiredFieldValidator ID="RequiredFieldValidator1" runat="server" ControlToValidate="txtName" Display="Dynamic" ErrorMessage="Name is a required field!" ForeColor="Red"></asp:RequiredFieldValidator>
+                </td>
+            </tr>
+            <tr>
+                <td>
+        <asp:Label ID="lblAdress" runat="server" Text="Address:"></asp:Label>
+                </td>
+                <td>
+        <asp:TextBox ID="txtAddress" runat="server" Width="262px"></asp:TextBox>
+                </td>
+                <td>
+                    <asp:RequiredFieldValidator ID="RequiredFieldValidator2" runat="server" ControlToValidate="txtAddress" ErrorMessage="Address is a required field!" ForeColor="Red"></asp:RequiredFieldValidator>
+                </td>
+            </tr>
+            <tr>
+                <td>
+        <asp:Label ID="lblCity" runat="server" Text="City. State. Zip."></asp:Label>
+                </td>
+                <td>
+        <asp:TextBox ID="txtCity" runat="server" Width="165px"></asp:TextBox>
+        <asp:TextBox ID="txtState" runat="server" Width="40px"></asp:TextBox>
+        <asp:TextBox ID="txtZip" runat="server" Width="41px"></asp:TextBox>
+                </td>
+                <td>
+                    <asp:RequiredFieldValidator ID="RequiredFieldValidator6" runat="server" ControlToValidate="txtCity" Display="Dynamic" ErrorMessage="City is a required field!" ForeColor="Red"></asp:RequiredFieldValidator>
+                    <asp:RequiredFieldValidator ID="RequiredFieldValidator7" runat="server" ControlToValidate="txtState" Display="Dynamic" ErrorMessage="State is a required field!" ForeColor="Red"></asp:RequiredFieldValidator>
+                    <asp:RequiredFieldValidator ID="RequiredFieldValidator8" runat="server" ControlToValidate="txtZip" Display="Dynamic" ErrorMessage="Zip is a required field!" ForeColor="Red"></asp:RequiredFieldValidator>
+                </td>
+            </tr>
+            <tr>
+                <td>
+        <asp:Label ID="lblPhone" runat="server" Text="Phone:"></asp:Label>
+                </td>
+                <td>
+        <asp:TextBox ID="txtPhone" runat="server" Width="165px" CausesValidation="True"></asp:TextBox>
+                </td>
+                <td>
+                    <asp:RequiredFieldValidator ID="RequiredFieldValidator4" runat="server" ControlToValidate="txtPhone" ErrorMessage="Phone is a required field!" ForeColor="Red" Display="Dynamic"></asp:RequiredFieldValidator>
+                </td>
+            </tr>
+            <tr>
+                <td>
         <asp:Label ID="lblEmail" runat="server" Text="Email"></asp:Label>
-        <asp:TextBox ID="txtEmail" runat="server" style="margin-left: 34px"></asp:TextBox>
+                </td>
+                <td>
+        <asp:TextBox ID="txtEmail" runat="server" Width="165px"></asp:TextBox>
+                </td>
+                <td>
+                    <asp:RequiredFieldValidator ID="RequiredFieldValidator5" runat="server" ControlToValidate="txtEmail" Display="Dynamic" ErrorMessage="Email is a required field!" ForeColor="Red"></asp:RequiredFieldValidator>
+                    <asp:RegularExpressionValidator ID="RegularExpressionValidator1" runat="server" ControlToValidate="txtEmail" Display="Dynamic" ErrorMessage="Please enter a valid email!" ForeColor="Red" ValidationExpression="\w+([-+.']\w+)*@\w+([-.]\w+)*\.\w+([-.]\w+)*"></asp:RegularExpressionValidator>
+                </td>
+            </tr>
+        </table>
         <br />
         <br />
-        <table class="auto-style1">
+        <table class="visibleTable">
             <tr>
                 <td class="auto-style2">&nbsp;</td>
                 <td class="auto-style3">

@@ -60,6 +60,7 @@
     <Content Include="AddIncident.aspx" />
     <Content Include="AddRegistration.aspx" />
     <Content Include="CustomerIncidents.aspx" />
+    <Content Include="images\textBackground.png" />
     <Content Include="ProductMaintenance.aspx" />
     <Content Include="TechnicalMaintenance.aspx" />
     <Content Include="Web.config" />
@@ -68,9 +69,6 @@
     <Compile Include="AddIncident.aspx.cs">
       <DependentUpon>AddIncident.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
-    </Compile>
-    <Compile Include="AddIncident.aspx.designer.cs">
-      <DependentUpon>AddIncident.aspx</DependentUpon>
     </Compile>
     <Compile Include="AddRegistration.aspx.cs">
       <DependentUpon>AddRegistration.aspx</DependentUpon>
