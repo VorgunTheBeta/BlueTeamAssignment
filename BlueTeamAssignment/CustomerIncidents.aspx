@@ -7,7 +7,8 @@
     <title>Customer Incidents</title>
     <link href="siteStyles.css" rel="stylesheet" type="text/css" />
 </head>
-<body style="background-color: #3B403C; color:white">
+<body>
+    <div id="wrapper">
     <form id="form1" runat="server">
         <div id="navBar">
             <ul>
@@ -29,8 +30,12 @@
                 <li>
                     <a>Add Technician&nbsp;</a>
                 </li>
+                <li>
+                    <a href="ProductMaintenance.aspx">Product Management&nbsp;</a>
+                </li>
             </ul>
         </div>
+        <br /><br />
         <br /><br />
     <div style="height: 462px">
     
@@ -152,5 +157,6 @@
     
     </div>
     </form>
+        </div>
 </body>
 </html>
