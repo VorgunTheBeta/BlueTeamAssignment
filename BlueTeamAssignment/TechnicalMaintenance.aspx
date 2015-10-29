@@ -8,7 +8,7 @@
     <link href="siteStyles.css" rel="stylesheet" type="text/css" />
 </head>
 <body>
-    col
+    <div id="wrapper">
     <form id="form1" runat="server">
         <div id="navBar">
             <ul>
@@ -29,6 +29,9 @@
                 </li>
                 <li>
                     <a>Add Technician&nbsp;</a>
+                </li>
+                <li>
+                    <a href="ProductMaintenance.aspx">Product Management&nbsp;</a>
                 </li>
             </ul>
         </div>
@@ -66,5 +69,6 @@
         <asp:TextBox ID="txtPhone" runat="server" style="margin-left: 5px"></asp:TextBox>
     </div>
     </form>
+        </div>
 </body>
 </html>

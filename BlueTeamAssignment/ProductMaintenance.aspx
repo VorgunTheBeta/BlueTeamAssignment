@@ -5,36 +5,37 @@
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head runat="server">
     <title></title>
-    <style type="text/css">
-        .auto-style1 {
-            width: 42%;
-            border-color:white;
-        }
-        .auto-style4 {
-            width: 83px;
-            border-color:white;
-        }
-        .auto-style5 {
-            width: 89px;
-            border-color:white;
-        }
-        .auto-style6 {
-            width: 108px;
-            border-color:white;
-        }
-        .auto-style8 {
-            width: 112px;
-            border-color:white;
-        }
-        .auto-style9 {
-            width: 32px;
-            border-color:white;
-        }
-    </style>
+    <link href="siteStyles.css" rel="stylesheet" type="text/css" />
 </head>
-<body style="background-color: #3B403C; color:white; height: 290px;">
+<body>
 
-    
+    <div id="wrapper">
+        <div id="navBar">
+            <ul>
+                <li>
+                    <a href="Design Tester.html">Home&nbsp;</a>
+                </li>
+                <li>
+                    <a href="TechnicalMaintenance.aspx">Technician Maintanence&nbsp;</a>
+                </li>
+                <li>
+                    <a href="CustomerIncidents.aspx">Customer Incidents&nbsp;</a>
+                </li>
+                <li>
+                    <a href="AddIncident.aspx">Add Incident&nbsp;</a>
+                </li>
+                <li>
+                    <a href="AddRegistration.aspx">Add Registration&nbsp;</a>
+                </li>
+                <li>
+                    <a>Add Technician&nbsp;</a>
+                </li>
+                <li>
+                    <a href="ProductMaintenance.aspx">Product Management&nbsp;</a>
+                </li>
+            </ul>
+        </div>
+        <br /><br />
     <form id="form1" runat="server">
     <div>
     
@@ -124,5 +125,6 @@
     
     </div>
     </form>
+    </div>
 </body>
 </html>
