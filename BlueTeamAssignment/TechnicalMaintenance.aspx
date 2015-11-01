@@ -15,14 +15,18 @@
 &nbsp;&nbsp;&nbsp;
         <asp:Button ID="btnBackward" runat="server" Text="&lt;" />
 &nbsp;&nbsp;
-        <asp:TextBox ID="txtPageNumber" runat="server" Width="81px"></asp:TextBox>
+        <asp:TextBox ID="txtSearch" runat="server" Width="81px"></asp:TextBox>
 &nbsp;
         <asp:Button ID="btnForward" runat="server" Text="&gt;" />
 &nbsp;&nbsp;&nbsp;
         <asp:Button ID="btnEndList" runat="server" Text="&gt;|" />
-&nbsp;<asp:Button ID="btnAdd" runat="server" Text="+" />
-&nbsp;<asp:Button ID="btnDelete" runat="server" ForeColor="Red" Text="X" />
+&nbsp;<asp:Button ID="btnAdd" runat="server" Text="+" OnClick="btnAdd_Click" />
+&nbsp;<asp:Button ID="btnDelete" runat="server" ForeColor="Red" Text="X" OnClick="btnDelete_Click" />
 &nbsp;<asp:Button ID="btnSave" runat="server" Text="Save" />
+        <br />
+        <br />
+        <asp:Button ID="btnSearch" runat="server" OnClick="btnSearch_Click" Text="Search" />
+&nbsp;<asp:Button ID="btnUpdate" runat="server" OnClick="btnUpdate_Click" Text="Update" />
         <br />
         <br />
         <asp:Label ID="lblTech" runat="server" Text="Tech ID:"></asp:Label>
@@ -47,6 +51,8 @@
         <asp:RequiredFieldValidator ID="RequiredFieldValidatorPhone" runat="server" ControlToValidate="txtPhone" Display="Dynamic" ForeColor="Red" ErrorMessage="Phone number is a required field"></asp:RequiredFieldValidator>
         <br />
         <br />
+        <asp:GridView ID="GridView1" runat="server">
+        </asp:GridView>
         <br />
         <br />
         <br />
