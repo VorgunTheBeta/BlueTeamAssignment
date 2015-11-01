@@ -29,6 +29,9 @@
                 <li>
                     <a>Add Technician&nbsp;</a>
                 </li>
+                <li>
+                    <a href="ProductMaintenance.aspx">Product Maintenance&nbsp;</a>
+                </li>
             </ul>
         </div>
         <br /><br />
